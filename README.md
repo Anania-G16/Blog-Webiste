@@ -1,16 +1,54 @@
-# React + Vite
+#Blog Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack blogging platform that allows users to sign up, write, and publish blogs. Designed to demonstrate full-stack web development skills using modern technologies and best practices.
 
-Currently, two official plugins are available:
+#Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+User registration and authentication
 
-## React Compiler
+Create, edit, and delete blog posts
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+View all posts from other users
 
-## Expanding the ESLint configuration
+Responsive and clean UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Session management for secure user login
+
+#Tech Stack
+
+Frontend: React, Tailwind CSS, HTML, CSS, JavaScript
+Backend: Node.js, Express.js
+Database: PostgreSQL
+Other Tools: Git, GitHub, VS Code, Postman, REST APIs
+
+#Getting Started
+
+Clone the repository: git clone https://github.com/Anania-G16/your-blog-repo.git and navigate to the folder
+
+Install dependencies: npm install
+
+Create a .env file with the following environment variables:
+
+DB_HOST=your_database_host
+
+DB_USER=your_database_user
+
+DB_PASS=your_database_password
+
+DB_NAME=your_database_name
+
+SESSION_SECRET=your_secret_key
+
+Run the application: npm run dev
+
+Open your browser at http://localhost:3000 to view the app
+
+📂 Folder Structure
+
+/src/components – React components
+
+/src/pages – Pages like Home, Blog, Create
+
+/src/styles – CSS files
+
+/backend – Express server files
